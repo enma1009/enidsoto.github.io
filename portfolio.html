@@ -13,86 +13,101 @@
 
     <title>Enid Soto - Graphic Designer and Web Developer</title>
   </head>
-  <body>
+  <body id="top">
+
+    <!-- Site Navigation -->
     <div class="container">
-
-      <!-- Site Navigation -->
-      <nav class="navbar navbar-expand-lg navbar-light">
-        <a class="navbar-brand" href="index.html">
-          <img src="assets/images/enidsoto_logo.png" width="100" class="d-inline-block align-top" alt="Enid Soto">
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a class="nav-item nav-link active" href="#">Portfolio <span class="sr-only">(current)</span></a>
-            <a class="nav-item nav-link" href="#">Services</a>
-            <a class="nav-item nav-link" href="#">Contact</a>
-            <a class="nav-item nav-link" href="#">About</a>
+      <header>
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <a class="navbar-brand" href="index.html">
+            <img src="assets/images/enidsoto_logo.png" width="100" class="d-inline-block align-top" alt="Enid Soto">
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+            <ul class="nav">
+              <li class="nav-item">
+                <a class="nav-link active" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="portfolio.html">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
           </div>
-        </div>
-      </nav>
+        </nav>
+      </header>
+    </div>
+
+    <main role="main" class="bg-light">
+      <div class="container py-sm-5">
       <!-- Portfolio Content -->
-      <div class="card-group">
-        <div class="card">
-          <img src="assets/images/calculator.jpg" class="card-img-top" alt="Shipping calculator cover image">
-          <div class="card-body">
-            <h5 class="card-title">Shipping Calculator</h5>
-            <p class="card-text">Provides live rates from the most popular shipping carriers.</p>
-            <p class="card-text"><small class="text-muted">Client: Luminis</small></p>
+        <div class="card-group">
+          <div class="card">
+            <img src="assets/images/calculator.jpg" class="card-img-top" alt="Shipping calculator cover image">
+            <div class="card-body">
+              <h5 class="card-title">Shipping Calculator</h5>
+              <p class="card-text">Provides live rates from the most popular shipping carriers.</p>
+              <p class="card-text"><small class="text-muted">Client: Luminis</small></p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="assets/images/hangman.jpg" class="card-img-top" alt="Hangman cover image">
+            <div class="card-body">
+              <h5 class="card-title">Hangman</h5>
+              <p class="card-text">Mobile game prototype for the classic Hangman game.</p>
+              <p class="card-text"><small class="text-muted">Client: Playfish Inc.</small></p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="assets/images/rock_paper_scissors.jpg" class="card-img-top" alt="Rock paper scissors cover image">
+            <div class="card-body">
+              <h5 class="card-title">Rock Paper Scissors</h5>
+              <p class="card-text">An interactive study of probabilities.</p>
+              <p class="card-text"><small class="text-muted">Client: personal project</small></p>
+            </div>
           </div>
         </div>
-        <div class="card">
-          <img src="assets/images/hangman.jpg" class="card-img-top" alt="Hangman cover image">
-          <div class="card-body">
-            <h5 class="card-title">Hangman</h5>
-            <p class="card-text">Mobile game prototype for the classic Hangman game.</p>
-            <p class="card-text"><small class="text-muted">Client: Playfish Inc.</small></p>
+        <div class="card-group">
+          <div class="card">
+            <img src="assets/images/rpg.jpg" class="card-img-top" alt="RPG games cover image">
+            <div class="card-body">
+              <h5 class="card-title">RPG Games</h5>
+              <p class="card-text">Build your own village and conquer new territories.</p>
+              <p class="card-text"><small class="text-muted">Client: The Mighty Bean</small></p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="assets/images/trivia.jpg" class="card-img-top" alt="Trivia cover image">
+            <div class="card-body">
+              <h5 class="card-title">Trivia</h5>
+              <p class="card-text">A fun multiplayer mobile game for movie and celebrity trivia.</p>
+              <p class="card-text"><small class="text-muted">Client: Caminos.</small></p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="assets/images/widget.jpg" class="card-img-top" alt="Widget cover image">
+            <div class="card-body">
+              <h5 class="card-title">Widget</h5>
+              <p class="card-text">A basic widget to test and fix common issues with mobile Os.</p>
+              <p class="card-text"><small class="text-muted">Client: personal project</small></p>
+            </div>
           </div>
         </div>
-        <div class="card">
-          <img src="assets/images/rock_paper_scissors.jpg" class="card-img-top" alt="Rock paper scissors cover image">
-          <div class="card-body">
-            <h5 class="card-title">Rock Paper Scissors</h5>
-            <p class="card-text">An interactive study of probabilities.</p>
-            <p class="card-text"><small class="text-muted">Client: personal project</small></p>
-          </div>
-        </div>
-      </div>
-      <div class="card-group">
-        <div class="card">
-          <img src="assets/images/rpg.jpg" class="card-img-top" alt="RPG games cover image">
-          <div class="card-body">
-            <h5 class="card-title">RPG Games</h5>
-            <p class="card-text">Build your own village and conquer new territories.</p>
-            <p class="card-text"><small class="text-muted">Client: The Mighty Bean</small></p>
-          </div>
-        </div>
-        <div class="card">
-          <img src="assets/images/trivia.jpg" class="card-img-top" alt="Trivia cover image">
-          <div class="card-body">
-            <h5 class="card-title">Trivia</h5>
-            <p class="card-text">A fun multiplayer mobile game for movie and celebrity trivia.</p>
-            <p class="card-text"><small class="text-muted">Client: Caminos.</small></p>
-          </div>
-        </div>
-        <div class="card">
-          <img src="assets/images/widget.jpg" class="card-img-top" alt="Widget cover image">
-          <div class="card-body">
-            <h5 class="card-title">Widget</h5>
-            <p class="card-text">A basic widget to test and fix common issues with mobile Os.</p>
-            <p class="card-text"><small class="text-muted">Client: personal project</small></p>
-          </div>
-        </div>
-      </div>
+      </div><!-- End of container div -->
 
-  </div><!-- End of container div -->
+    </main>
   
   <footer class="text-muted">
     <div class="container">
       <p class="float-right">
-        <a href="#">Back to top</a>
+        <a href="#">Back to top &uarr;</a>
       </p>
       <p> &copy; Enid Soto</p>
       <p>Responsive website - Homework #2</p>
