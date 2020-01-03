@@ -33,4 +33,17 @@
   .margin-bottom-20 {
       margin-bottom: 20px;
   }
+
+  header ul li a, footer ul li a, footer a {
+    color:#444;
+  }
+  
+  header ul li a:hover, footer ul li a:hover, footer a:hover {
+    color:#000;
+    border-bottom: 2px solid #444;
+  }
+
+  footer a:hover {
+    text-decoration: none;
+  }
   
