@@ -15,7 +15,7 @@ enidsoto/
     ├── index.html
     ├── portfolio.html
     ├── about.html
-    ├── services.html
+    ├── contact.html
     └── assets/
          ├── css/
          │    └── main.css
