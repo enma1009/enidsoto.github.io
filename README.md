@@ -1,11 +1,12 @@
-<p align="center">
-  <a href="https://github.com/enma1009/enidsoto.github.io">
-    <img src="assets/images/enidsoto_logo_light.png" alt="Bootstrap logo" width="100">
-  </a>
-</p>
+# Responsive Portfolio
 
-# Enid Soto - Responsive Portfolio
+***Author: Enid Soto***
+
 This is a basic portfolio website created with the Bootstrap 4 framework.
+
+## Purpose
+
+The purpose of this project is to get familiar with the Bootstrap css framework. It was an assignment of the UM Full Stack Developer Bootcamp 2019-2020.
 
 ## Site Structure
 The site's directory is organized with the following files and folders:
@@ -22,3 +23,7 @@ enidsoto/
          └── images/
               └── [list of img files...]
 ```
+
+## Link to the deployed application
+
+You can find the deployed application [here](https://enma1009.github.io/enidsoto.github.io/)
